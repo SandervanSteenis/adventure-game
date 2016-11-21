@@ -1,15 +1,55 @@
-* {
-	padding: 0px;
-	margin: 0px;
-}
 
 body {
-	background-color: silver;
+	background-image: url("img/map.jpg");
 	font-family: sans-serif;
 }
 
 #level_title {
-	font-size: 18px;
-	color: black;		
+	font-size: 30px;
+	font-family: candara;
+	color: #c9a874;		
 	font-weight: bold;
+}
+
+#level_image {
+	height: 500px;
+    border: solid #c9a874 4px;
+	border-radius: 10px;
+
+}
+
+#logo {
+	max-width: 100%;
+    height: auto;
+    width: 360px; 
+    height: 109px;
+    position: relative;
+    bottom: 670px; 
+    left: 770px;
+}
+
+#ring {
+	position: relative;
+	left: 1050px;
+	bottom: 500px;
+}
+
+main {
+	text-align: center;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 140px;
+}
+
+button {
+   background-color: #c9a874;
+   border-radius: 4px;
+   border-color: silver;
+   cursor: pointer;
+   outline: none;
+
+}
+
+button:hover {
+	background-color: #B49768;
 }

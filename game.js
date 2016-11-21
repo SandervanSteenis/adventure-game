@@ -1,7 +1,7 @@
 // javascript library for simple game development
 
-document.getElementById('option1').innerHTML = 'Dit is keuze 1';
-document.getElementById('level_title').innerHTML = 'Start het spel';
+document.getElementById('option1').innerHTML = 'Play Game';
+document.getElementById('level_title').innerHTML = ' ';
 
 var HasKey = false;
 
@@ -12,16 +12,15 @@ var HasKey = false;
 // https://www.youtube.com/watch?v=4ba1BqJ4S2M
 
 
-
 function Level1() {
 	console.log("Level1()");
 
 	var opt1 = document.getElementById('option1');
-	opt1.innerHTML = 'Level 1: optie 1';
+	opt1.innerHTML = 'Start';
 	opt1.setAttribute("onClick", "javascript:Level2();");
 
 	document.getElementById('level_title').innerHTML = 'Level 1';
-	document.getElementById('level_image').src = 'img/level1.jpg';
+	document.getElementById('level_image').src = 'img/house.jpg';
 
 
 	// only allow option 2 if user has a key in his inventory
@@ -48,8 +47,17 @@ function Level2() {
 
 	var opt1 = document.getElementById('option1');
 	opt1.innerHTML = 'Level 2: optie 1';
-	opt1.onClick = 'javascript:Level3();';
+	opt1.setAttribute("onclick", "javascript:Level3()");
 
 	document.getElementById('level_title').innerHTML = 'Level 2';
 	document.getElementById('level_image').src = 'img/level2.jpg';
+}
+
+function Level3()  {
+	console.log("level3()");
+
+
+
+	document.getElementById('level_title').innerHTML = 'Level 3';
+	document.getElementById('level_image').src = 'img/house.jpg';
 }
