@@ -42,6 +42,12 @@ function Level1() {
 	}
 }
 
+function Options() {
+	console.log("Options()");
+	
+}
+     
+
 function Level2() {
 	console.log("Level2()");
 
@@ -50,7 +56,7 @@ function Level2() {
 	opt1.setAttribute("onclick", "javascript:Level3()");
 
 	document.getElementById('level_title').innerHTML = 'Level 2';
-	document.getElementById('level_image').src = 'img/level2.jpg';
+	document.getElementById('level_image').src = 'img/journey.jpg';
 }
 
 function Level3()  {
