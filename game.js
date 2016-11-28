@@ -67,3 +67,11 @@ function Level3()  {
 	document.getElementById('level_title').innerHTML = 'Level 3';
 	document.getElementById('level_image').src = 'img/house.jpg';
 }
+
+function bgAudio() {
+  var audioElem = document.getElementById('bgaudio');
+  if (audioElem.paused)
+    audioElem.play();
+  else
+    audioElem.pause();
+}
