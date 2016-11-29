@@ -62,6 +62,8 @@ function Level3()  {
 	document.getElementById('level_image').src = 'img/house.jpg';
 }
 
+//Background Audio
+
 function bgAudio() {
   var audioElem = document.getElementById('bgaudio');
   if (audioElem.paused)
@@ -69,6 +71,8 @@ function bgAudio() {
   else
     audioElem.pause();
 }
+
+//Over Het Spel
 
 var toggle  = document.getElementById("toggle");
 var content = document.getElementById("content");

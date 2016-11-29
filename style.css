@@ -63,7 +63,7 @@ button:hover {
   /* DON'T USE DISPLAY NONE/BLOCK! Instead: */
   background: #aa7243;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 4px solid #c9a874;
   position: absolute;
   right: 400px;
