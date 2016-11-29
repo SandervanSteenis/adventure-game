@@ -40,13 +40,7 @@ function Level1() {
 	opt3.onclick = function(){
 		HasKey = true;
 	}
-}
-
-function Options() {
-	console.log("Options()");
-	
-}
-     
+} 
 
 function Level2() {
 	console.log("Level2()");
@@ -75,3 +69,10 @@ function bgAudio() {
   else
     audioElem.pause();
 }
+
+var toggle  = document.getElementById("toggle");
+var content = document.getElementById("content");
+
+toggle.addEventListener("click", function(){
+  content.classList.toggle("appear");
+}, false);

@@ -18,8 +18,9 @@
 	<nav>
 
 		<button id="option1" onclick="javascript:Level1()">Optie 1</button>
-		<button id="option2" onclick="javascript:Options()">Options</button>
-		<button id="option3" onclick="javascript:Over()">Over het spel</button>
+		<button id="musicbutton" onclick="javascript:bgAudio()">Music On/Off</button>
+		<button id="toggle">Over het spel</button>
+<div id="content">Dit spel gaat over The Hobbit: An Unexpected Journey. het is het eerste deel van de driedelige filmreeks gebaseerd op het gelijknamige boek van J.R.R. Tolkien.</div>
 
 	</nav>
 	<div class="container">
@@ -30,13 +31,14 @@
      <div>
     <img id="logo" src="img/logo.png" alt="hobbitlogo">
     <img id="ring" src="img/ringanimated.gif" alt="ring">
+
     </div>
+
+ 
 
     <audio id="bgaudio" loop>
      <source src="music/oldfriends.mp3" />     
  </audio>
-
-<button id="musicbutton" onclick="javascript:bgAudio()">Music On/Off</button>
 
 	<script src="game.js" type="text/javascript"></script>
 
