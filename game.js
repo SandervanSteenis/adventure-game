@@ -19,8 +19,8 @@ function Level1() {
 	opt1.innerHTML = 'Start';
 	opt1.setAttribute("onClick", "javascript:Level2();");
 
-	document.getElementById('level_title').innerHTML = 'Level 1';
-	document.getElementById('level_image').src = 'img/house.jpg';
+	document.getElementById('level_title').innerHTML = '';
+	document.getElementById('level_image').src = "img/house.jpg";
 
 
 	// only allow option 2 if user has a key in his inventory
@@ -49,8 +49,8 @@ function Level2() {
 	opt1.innerHTML = 'Level 2: optie 1';
 	opt1.setAttribute("onclick", "javascript:Level3()");
 
-	document.getElementById('level_title').innerHTML = 'Level 2';
-	document.getElementById('level_image').src = 'img/journey.jpg';
+	document.getElementById('level_title').innerHTML = '';
+	document.getElementById('level_image').src = 'img/journey3.jpg';
 }
 
 function Level3()  {
@@ -58,8 +58,8 @@ function Level3()  {
 
 
 
-	document.getElementById('level_title').innerHTML = 'Level 3';
-	document.getElementById('level_image').src = 'img/house.jpg';
+	document.getElementById('level_title').innerHTML = '';
+	document.getElementById('level_image').src = 'img/smaug.jpg';
 }
 
 //Background Audio
@@ -72,6 +72,9 @@ function bgAudio() {
     audioElem.pause();
 }
 
+  var audio = document.getElementById("bgaudio");
+  audio.volume = 0.1;
+
 //Over Het Spel
 
 var toggle  = document.getElementById("toggle");
@@ -80,3 +83,4 @@ var content = document.getElementById("content");
 toggle.addEventListener("click", function(){
   content.classList.toggle("appear");
 }, false);
+
