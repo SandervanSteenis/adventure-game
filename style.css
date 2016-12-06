@@ -34,10 +34,16 @@ body {
 	bottom: 500px;
 }
 
-#introvideo {
-	display: noe;
-	width: 600; 
-	height: 400;
+#level_video {
+	display: none;
+	position: absolute;
+	top: 162px;
+	left: 580px;
+}
+
+#youtubevideo {
+	border: solid #c9a874 4px;
+	border-radius: 10px;
 }
 
 main {
@@ -83,3 +89,4 @@ button:hover {
           transform: translateX(0);
   -webkit-transform: translateX(0);
 }
+
