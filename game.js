@@ -20,7 +20,7 @@ function Level1() {
 	opt1.innerHTML = 'Start';
 	opt1.setAttribute("onClick", "javascript:Level2();");
 
-	document.getElementById('level_title').innerHTML = '';
+	document.getElementById('level_title').innerHTML = 'Bekijk het filmpje<br>om het verhaal<br>te starten';
 	document.getElementById('level_video').style.display ='block';
 
 

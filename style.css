@@ -5,10 +5,15 @@ body {
 }
 
 #level_title {
-	font-size: 30px;
+	font-size: 24px;
 	font-family: candara;
 	color: #c9a874;		
-	font-weight: bold;
+	position: absolute;
+	top: 308px;
+	left: 1360px;
+	
+    padding: 5px;
+    
 }
 
 #level_image {
