@@ -99,7 +99,3 @@ var content = document.getElementById("content");
 toggle.addEventListener("click", function(){
   content.classList.toggle("appear");
 }, false);
-
-jQuery("iframe").each(function() {
-  jQuery(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
-});
