@@ -4,15 +4,35 @@ body {
 	font-family: sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+    color: #c9a874;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #c9a874;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c9a874;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #c9a874;
+}
+
 #level_title {
-	font-size: 24px;
+	font-size: 22px;
 	font-family: candara;
-	color: #c9a874;		
+	color: #c9a874;
+	text-shadow: 2px 2px 4px #000000;		
 	position: absolute;
 	top: 308px;
 	left: 1360px;
-	
-    padding: 5px;
+    margin: 50px;
     
 }
 
@@ -20,7 +40,6 @@ body {
 	height: 500px;
     border: solid #c9a874 4px;
 	border-radius: 10px;
-
 }
 
 #logo {
@@ -35,11 +54,18 @@ body {
 
 #ring {
 	position: relative;
-	left: 1050px;
+	left: 1036px;
 	bottom: 500px;
 }
 
 #level_video {
+	display: none;
+	position: absolute;
+	top: 162px;
+	left: 580px;
+}
+
+#level_video2 {
 	display: none;
 	position: absolute;
 	top: 162px;
