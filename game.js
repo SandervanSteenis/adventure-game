@@ -131,9 +131,54 @@ function Level9() {
 	opt1.innerHTML = 'Ga Verder';
 	opt1.setAttribute("onclick", "javascript:Level10()");
 
-	document.getElementById('level_title').innerHTML = 'Onderweg vertelt Balin hoe het met Thror is afgelopen. Bij een mislukte poging om Moria te heroveren is hij door de bleke ork Azog gedood. Thorin sloeg Azog vervolgens een arm af en zegt dat Azog aan zijn verwonding gestorven is.';
+	document.getElementById('level_title').innerHTML = 'Onderweg vertelt Balin hoe het met Thror is afgelopen.';
+	document.getElementById('level_image').src = 'img/balin.png';
+}
+
+function Level10() {
+	console.log("Level10()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level11()");
+
+	document.getElementById('level_title').innerHTML = 'Bij een mislukte poging om Moria te heroveren is hij door de bleke ork Azog onthoofd.';
+	document.getElementById('level_image').src = 'img/hoofd.png';
+}
+
+function Level11() {
+	console.log("Level11()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level12()");
+
+	document.getElementById('level_title').innerHTML = 'Thorin sloeg Azog vervolgens een arm af en zegt dat Azog aan zijn verwonding gestorven is.';
+	document.getElementById('level_image').src = 'img/arm.png';
+}
+
+function Level12() {
+	console.log("Level12()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level13()");
+
+	document.getElementById('level_title').innerHTML = 'Na een lange reis oostwaarts ontstaat er wrijving in het gezelschap en trekt Gandalf er alleen op uit.';
+	document.getElementById('level_image').src = 'img/leaving.jpg';
+}
+
+function Level13() {
+	console.log("Level13()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level14()");
+
+	document.getElementById('level_title').innerHTML = '';
 	document.getElementById('level_image').src = 'img/hoi.jpg';
 }
+
 
 //Background Audio
 
