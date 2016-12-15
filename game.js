@@ -175,8 +175,19 @@ function Level13() {
 	opt1.innerHTML = 'Ga Verder';
 	opt1.setAttribute("onclick", "javascript:Level14()");
 
-	document.getElementById('level_title').innerHTML = '';
-	document.getElementById('level_image').src = 'img/hoi.jpg';
+	document.getElementById('level_title').innerHTML = 'Als de Dwergen hun kamp opslaan merken ze dat er ponys verdwenen zijn.';
+	document.getElementById('level_image').src = 'img/stolen.jpg';
+}
+
+function Level14() {
+	console.log("Level14()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level14()");
+
+	document.getElementById('level_title').innerHTML = 'Fili, Kili en Bilbo ontdekken dat een drietal Trollen de ponys gestolen heeft om ze op te eten.';
+	document.getElementById('level_image').src = 'img/trolls.jpg';
 }
 
 
