@@ -184,12 +184,44 @@ function Level14() {
 
 	var opt1 = document.getElementById('option1');
 	opt1.innerHTML = 'Ga Verder';
-	opt1.setAttribute("onclick", "javascript:Level14()");
+	opt1.setAttribute("onclick", "javascript:Level15()");
 
 	document.getElementById('level_title').innerHTML = 'Fili, Kili en Bilbo ontdekken dat een drietal Trollen de ponys gestolen heeft om ze op te eten.';
 	document.getElementById('level_image').src = 'img/trolls.jpg';
 }
 
+function Level15() {
+	console.log("Level15()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level16()");
+
+	document.getElementById('level_title').innerHTML = 'Als Bilbo de ponys probeert te bevrijden wordt hij echter gesnapt. De Dwergen proberen hem te redden maar zijn gedwongen hun wapens neer te leggen als de Trollen Bilbo dreigen te doden.';
+	document.getElementById('level_image').src = 'img/trolls2.jpg';
+}
+
+function Level16() {
+	console.log("Level16()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level17()");
+
+	document.getElementById('level_title').innerHTML = 'Vervolgens willen de Trollen de Dwergen roosteren als maaltijd.';
+	document.getElementById('level_image').src = 'img/roasting.jpg';
+}
+
+function Level17() {
+	console.log("Level17()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level18()");
+
+	document.getElementById('level_title').innerHTML = 'Bilbo rekt tijd door zich met hun kookkunst te bemoeien en te beweren dat Dwergen ongezond zijn. Hierdoor kan Gandalf terugkeren en een rots splijten, zodat de Trollen door de opkomende zon verstenen.';
+	document.getElementById('level_image').src = 'img/stone.jpg';
+}
 
 //Background Audio
 
