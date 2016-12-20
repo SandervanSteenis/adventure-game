@@ -223,6 +223,76 @@ function Level17() {
 	document.getElementById('level_image').src = 'img/stone.jpg';
 }
 
+function Level18() {
+	console.log("Level18()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level19()");
+
+	document.getElementById('level_title').innerHTML = 'Het gezelschap doorzoekt het schuilhol van de Trollen en ontdekt hier gestolen schatten, die ze begraven. Thorin neemt het Elfenzwaard genaamd Orcrist mee.';
+	document.getElementById('level_image').src = 'img/orcrist.png';
+}
+
+function Level19() {
+	console.log("Level19()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level20()");
+
+	document.getElementById('level_title').innerHTML = 'En Gandalf vindt het Elfenzwaard genaamd Glamdring.';
+	document.getElementById('level_image').src = 'img/glamdring.jpg';
+}
+
+function Level20() {
+	console.log("Level20()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level21()");
+
+	document.getElementById('level_title').innerHTML = 'Gandalf vindt nog een kleiner Elfenzwaard dat hij geeft aan Bilbo. Bilbo noemt het zwaard later "Sting". ';
+	document.getElementById('level_image').src = 'img/sting.jpg';
+}
+
+function Level21() {
+	console.log("Level21()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level22()");
+
+	document.getElementById('level_title').innerHTML = 'Vervolgens stuit de groep op Radagast, de Bruine Tovenaar uit het Demsterwold. Radagast vertelt Gandalf dat hij ongerust is over de toestand in zijn woud, waar steeds meer duisternis en ziekten toenemen.';
+	document.getElementById('level_image').src = 'img/radagast.jpg';
+}
+
+function Level22() {
+	console.log("Level22()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level23()");
+
+	document.getElementById('level_title').innerHTML = 'Toen Radagast Dol Guldur bezocht werd hij door een vreemde geest aangevallen en ving hij een glimp op van een vreemde Geestenbezweerder. ';
+	document.getElementById('level_image').src = 'img/radagast2.jpg';
+}
+
+function Level23() {
+	console.log("Level23()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level24()");
+
+	document.getElementById('level_title').innerHTML = ' Plotseling valt een groep Orks en Wargs de groep aan. Deze werken in opdracht van Azog, die het gevecht in Moria overleefd heeft en zich op Thorin wil wreken.';
+	document.getElementById('level_image').src = 'img/chase2.jpg';
+}
+
+
+
+
+
 //Background Audio
 
 function bgAudio() {
