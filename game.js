@@ -286,9 +286,63 @@ function Level23() {
 	opt1.setAttribute("onclick", "javascript:Level24()");
 
 	document.getElementById('level_title').innerHTML = ' Plotseling valt een groep Orks en Wargs de groep aan. Deze werken in opdracht van Azog, die het gevecht in Moria overleefd heeft en zich op Thorin wil wreken.';
-	document.getElementById('level_image').src = 'img/chase2.jpg';
+	document.getElementById('level_image').src = 'img/chase.png';
 }
 
+function Level24() {
+	console.log("Level24()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level25()");
+
+	document.getElementById('level_title').innerHTML = 'Met behulp van Radagast en de door Gandalf gewaarschuwde Elfen slaagt het gezelschap erin te ontsnappen naar de verborgen vallei van Rivendel.';
+	document.getElementById('level_image').src = 'img/rivendell.jpg';
+}
+
+function Level25() {
+	console.log("Level25()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level26()");
+
+	document.getElementById('level_title').innerHTML = 'Thorin accepteert de hulp van de Elfen niet van harte, aangezien de Boselfen van Thranduil de Dwergen in de steek gelaten hebben toen Smaug de Berg aanviel. Toch blijven de Dwergen enige tijd in het huis van Elrond, die speciale maanletters op de kaart ontdekt, die een nieuwe aanwijzing bieden naar een geheime deur in de Berg die maar eens per jaar ontdekt kan worden.';
+	document.getElementById('level_image').src = 'img/table.jpg';
+}
+
+function Level26() {
+	console.log("Level26()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level27()");
+
+	document.getElementById('level_title').innerHTML = 'Ook ontdekt Elrond dat Gandalfs zwaard Glamdring is, het zwaard van de Elfenkoning van de verwoeste stad Gondolin. Thorins zwaard, Orcrist, komt daar ook vandaan.';
+	document.getElementById('level_image').src = 'img/elrond.jpg';
+}
+
+function Level27() {
+	console.log("Level27()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level28()");
+
+	document.getElementById('level_title').innerHTML = 'De Witte Raad komt in Rivendel bijeen. Gandalf is van mening dat in Dol Guldur een duistere Geestenbezweerder aan het werk is, maar Elrond en Saruman zijn hier sceptisch over. Het zwaard van de geest die Radagast aanviel blijkt echter het zwaard van de Tovenaar-Koning van Angmar, die al dood had moeten zijn. Saruman meent echter dat de Geestenbezweerder een gewoon mens is. Aangezien de Raad niet volledig overtuigd is van het gevaar van Dol Guldur wordt de expeditie van Gandalf en Thorin niet goedgekeurd. Galadriel heeft echter door dat de Dwergen en Bilbo al stiekem vertrokken zijn.';
+	document.getElementById('level_image').src = 'img/council.jpg';
+}
+
+function Level28() {
+	console.log("Level28()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level29()");
+
+	document.getElementById('level_title').innerHTML = 'Bilbo en de Dwergen zijn de Nevelbergen ingetrokken, maar raken daar in moeilijkheden als ze per ongeluk tussen vechtende Steenreuzen terechtkomen.';
+	document.getElementById('level_image').src = 'img/giant.jpg';
+}
 
 
 
