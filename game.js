@@ -252,7 +252,7 @@ function Level20() {
 	opt1.innerHTML = 'Ga Verder';
 	opt1.setAttribute("onclick", "javascript:Level21()");
 
-	document.getElementById('level_title').innerHTML = 'Gandalf vindt nog een kleiner Elfenzwaard dat hij geeft aan Bilbo. Bilbo noemt het zwaard later "Sting". ';
+	document.getElementById('level_title').innerHTML = 'Gandalf vindt nog een kleiner Elfenzwaard dat hij geeft aan Bilbo. Bilbo noemt het zwaard later "Sting".';
 	document.getElementById('level_image').src = 'img/sting.jpg';
 }
 
@@ -343,6 +343,96 @@ function Level28() {
 	document.getElementById('level_title').innerHTML = 'Bilbo en de Dwergen zijn de Nevelbergen ingetrokken, maar raken daar in moeilijkheden als ze per ongeluk tussen vechtende Steenreuzen terechtkomen.';
 	document.getElementById('level_image').src = 'img/giant.jpg';
 }
+
+function Level29() {
+	console.log("Level29()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level30()");
+
+	document.getElementById('level_title').innerHTML = 'De groep vlucht een grot in. Bilbo wilt terug naar Rivendell maar net als hij vertrekt komen ze terecht in een valluik en komen via een tunnel in Aardmannenstad.';
+	document.getElementById('level_image').src = 'img/bilbo.jpg';
+}
+
+function Level30() {
+	console.log("Level30()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level31()");
+
+	document.getElementById('level_title').innerHTML = 'De Dwergen worden gevangengenomen door de Aardmannen, en worden gebracht naar de Grote Aardman.';
+	document.getElementById('level_image').src = 'img/town.png';
+}
+
+function Level31() {
+	console.log("Level31()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level32()");
+
+	document.getElementById('level_title').innerHTML = 'Bilbo blijft per ongeluk achter in de grotten en raakt in gevecht met een Aardman. Samen storten ze neer in de grot.';
+	document.getElementById('level_image').src = 'img/goblin.jpg';
+}
+
+function Level32() {
+	console.log("Level32()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level33()");
+
+	document.getElementById('level_title').innerHTML = 'De Aardman wordt gedood en meegenomen door Gollem, die hierbij een ring laat vallen. Met de ring in zijn zak loopt Bilbo Gollem tegen het lijf. Gollem kan niet beslissen of hij Bilbo wil helpen of opeten, dus daagt hij hem uit voor een raadselspel.';
+	document.getElementById('level_image').src = 'img/riddles.jpg';
+}
+
+function Level33() {
+	console.log("Level33()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level34()");
+
+	document.getElementById('level_title').innerHTML = 'Ondertussen zijn de Dwergen voor de Grote Aardman geleid, die onthult dat Azog een prijs op Thorins hoofd heeft gezet. Als de Aardmannen de Dwergen willen gaan martelen verschijnt Gandalf ten tonele.';
+	document.getElementById('level_image').src = 'img/arrives2.jpg';
+}
+
+function Level34() {
+	console.log("Level34()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level35()");
+
+	document.getElementById('level_title').innerHTML = 'De groep ontsnapt en Gandalf doodt de Grote Aardman, waarna ze naar de uitgang vluchten.';
+	document.getElementById('level_image').src = 'img/goblinking3.png';
+}
+
+function Level35() {
+	console.log("Level35()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level36()");
+
+	document.getElementById('level_title').innerHTML = 'Bilbo heeft ondertussen het raadselspel gewonnen door te vragen wat hij in zijn zak heeft. Als Gollem merkt dat zijn ring kwijt is snapt hij dat Bilbo die heeft en wil hem aanvallen.';
+	document.getElementById('level_image').src = 'img/gollum.jpg';
+}
+
+function Level36() {
+	console.log("Level36()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level37()");
+
+	document.getElementById('level_title').innerHTML = 'De ring blijkt Bilbo echter onzichtbaar te maken. Gollem kan Bilbo niet vinden en gaat bij een uitgang zitten in de hoop hem te grijpen.';
+	document.getElementById('level_image').src = 'img/invisible2.jpg';
+}
+
+
 
 
 
