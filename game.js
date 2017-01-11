@@ -396,7 +396,7 @@ function Level33() {
 	opt1.setAttribute("onclick", "javascript:Level34()");
 
 	document.getElementById('level_title').innerHTML = 'Ondertussen zijn de Dwergen voor de Grote Aardman geleid, die onthult dat Azog een prijs op Thorins hoofd heeft gezet. Als de Aardmannen de Dwergen willen gaan martelen verschijnt Gandalf ten tonele.';
-	document.getElementById('level_image').src = 'img/arrives2.jpg';
+	document.getElementById('level_image').src = 'img/arrives.jpg';
 }
 
 function Level34() {
@@ -407,7 +407,7 @@ function Level34() {
 	opt1.setAttribute("onclick", "javascript:Level35()");
 
 	document.getElementById('level_title').innerHTML = 'De groep ontsnapt en Gandalf doodt de Grote Aardman, waarna ze naar de uitgang vluchten.';
-	document.getElementById('level_image').src = 'img/goblinking3.png';
+	document.getElementById('level_image').src = 'img/goblinking.png';
 }
 
 function Level35() {
@@ -429,7 +429,7 @@ function Level36() {
 	opt1.setAttribute("onclick", "javascript:Level37()");
 
 	document.getElementById('level_title').innerHTML = 'De ring blijkt Bilbo echter onzichtbaar te maken. Gollem kan Bilbo niet vinden en gaat bij een uitgang zitten in de hoop hem te grijpen.';
-	document.getElementById('level_image').src = 'img/invisible2.jpg';
+	document.getElementById('level_image').src = 'img/invisible.jpg';
 }
 
 
