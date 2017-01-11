@@ -384,8 +384,8 @@ function Level32() {
 	opt1.innerHTML = 'Ga Verder';
 	opt1.setAttribute("onclick", "javascript:Level33()");
 
-	document.getElementById('level_title').innerHTML = 'De Aardman wordt gedood en meegenomen door Gollem, die hierbij een ring laat vallen. Met de ring in zijn zak loopt Bilbo Gollem tegen het lijf. Gollem kan niet beslissen of hij Bilbo wil helpen of opeten, dus daagt hij hem uit voor een raadselspel.';
-	document.getElementById('level_image').src = 'img/riddles.jpg';
+	document.getElementById('level_title').innerHTML = 'De Aardman wordt gedood en meegenomen door Gollem, die hierbij een ring laat vallen. Bilbo pakt de ring op en doet hem in zijn zak.';
+	document.getElementById('level_image').src = 'img/findring.jpg';
 }
 
 function Level33() {
@@ -395,8 +395,8 @@ function Level33() {
 	opt1.innerHTML = 'Ga Verder';
 	opt1.setAttribute("onclick", "javascript:Level34()");
 
-	document.getElementById('level_title').innerHTML = 'Ondertussen zijn de Dwergen voor de Grote Aardman geleid, die onthult dat Azog een prijs op Thorins hoofd heeft gezet. Als de Aardmannen de Dwergen willen gaan martelen verschijnt Gandalf ten tonele.';
-	document.getElementById('level_image').src = 'img/arrives.jpg';
+	document.getElementById('level_title').innerHTML = 'Met de ring in zijn zak loopt Bilbo Gollem tegen het lijf. Gollem kan niet beslissen of hij Bilbo wil helpen of opeten, dus daagt hij hem uit voor een raadselspel.';
+	document.getElementById('level_image').src = 'img/riddles.jpg';
 }
 
 function Level34() {
@@ -406,8 +406,8 @@ function Level34() {
 	opt1.innerHTML = 'Ga Verder';
 	opt1.setAttribute("onclick", "javascript:Level35()");
 
-	document.getElementById('level_title').innerHTML = 'De groep ontsnapt en Gandalf doodt de Grote Aardman, waarna ze naar de uitgang vluchten.';
-	document.getElementById('level_image').src = 'img/goblinking.png';
+	document.getElementById('level_title').innerHTML = 'Ondertussen zijn de Dwergen voor de Grote Aardman geleid, die onthult dat Azog een prijs op Thorins hoofd heeft gezet. Als de Aardmannen de Dwergen willen gaan martelen verschijnt Gandalf ten tonele.';
+	document.getElementById('level_image').src = 'img/arrives.jpg';
 }
 
 function Level35() {
@@ -417,8 +417,8 @@ function Level35() {
 	opt1.innerHTML = 'Ga Verder';
 	opt1.setAttribute("onclick", "javascript:Level36()");
 
-	document.getElementById('level_title').innerHTML = 'Bilbo heeft ondertussen het raadselspel gewonnen door te vragen wat hij in zijn zak heeft. Als Gollem merkt dat zijn ring kwijt is snapt hij dat Bilbo die heeft en wil hem aanvallen.';
-	document.getElementById('level_image').src = 'img/gollum.jpg';
+	document.getElementById('level_title').innerHTML = 'De groep ontsnapt en Gandalf doodt de Grote Aardman, waarna ze naar de uitgang vluchten.';
+	document.getElementById('level_image').src = 'img/goblinking.png';
 }
 
 function Level36() {
@@ -428,8 +428,41 @@ function Level36() {
 	opt1.innerHTML = 'Ga Verder';
 	opt1.setAttribute("onclick", "javascript:Level37()");
 
+	document.getElementById('level_title').innerHTML = 'Bilbo heeft ondertussen het raadselspel gewonnen door te vragen wat hij in zijn zak heeft. Als Gollem merkt dat zijn ring kwijt is snapt hij dat Bilbo die heeft en wil hem aanvallen.';
+	document.getElementById('level_image').src = 'img/gollum.jpg';
+}
+
+function Level37() {
+	console.log("Level37()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level38()");
+
 	document.getElementById('level_title').innerHTML = 'De ring blijkt Bilbo echter onzichtbaar te maken. Gollem kan Bilbo niet vinden en gaat bij een uitgang zitten in de hoop hem te grijpen.';
 	document.getElementById('level_image').src = 'img/invisible.jpg';
+}
+
+function Level38() {
+	console.log("Level38()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level39()");
+
+	document.getElementById('level_title').innerHTML = 'Bilbo ziet Gandalf en de Dwergen voorbij rennen en beseft dat hij langs Gollem moet om te ontsnappen.';
+	document.getElementById('level_image').src = 'img/gandalf.png';
+}
+
+function Level39() {
+	console.log("Level39()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level40()");
+
+	document.getElementById('level_title').innerHTML = 'Hij overweegt het schepsel te doden, maar spaart hem uit medelijden.';
+	document.getElementById('level_image').src = 'img/gollumsad.jpg';
 }
 
 
