@@ -465,6 +465,126 @@ function Level39() {
 	document.getElementById('level_image').src = 'img/gollumsad.jpg';
 }
 
+function Level40() {
+	console.log("Level40()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level41()");
+
+	document.getElementById('level_title').innerHTML = 'Op het moment dat Thorin klaagt dat de Hobbit vooral een blok aan hun been is, keert Bilbo terug in de groep.';
+	document.getElementById('level_image').src = 'img/returning.png';
+}
+
+function Level41() {
+	console.log("Level41()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level42()");
+
+	document.getElementById('level_title').innerHTML = 'Azog valt het gezelschap echter weer aan met zijn Orks en Wargs.';
+	document.getElementById('level_image').src = 'img/azog.png';
+}
+
+function Level42() {
+	console.log("Level42()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level43()");
+
+	document.getElementById('level_title').innerHTML = 'Zodat het gezelschap in de bomen moet klimmen.';
+	document.getElementById('level_image').src = 'img/thorin.jpg';
+}
+
+function Level43() {
+	console.log("Level43()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level44()");
+
+	document.getElementById('level_title').innerHTML = 'Thorin bevecht Azog, maar het is geen partij voor hem.';
+	document.getElementById('level_image').src = 'img/thorin2.jpg';
+}
+
+function Level44() {
+	console.log("Level44()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level45()");
+
+	document.getElementById('level_title').innerHTML = 'Als Azog op het punt staat Thorin te doden, stormt Bilbo naar voren en redt Thorins leven.';
+	document.getElementById('level_image').src = 'img/bilbosaves.jpg';
+}
+
+function Level45() {
+	console.log("Level45()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level46()");
+
+	document.getElementById('level_title').innerHTML = ' Gandalf heeft ondertussen via een vlinder de Grote Adelaars geroepen.';
+	document.getElementById('level_image').src = 'img/butterfly.jpg';
+}
+
+function Level46() {
+	console.log("Level46()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level47()");
+
+	document.getElementById('level_title').innerHTML = 'De Dwergen, Bilbo en Gandalf worden in veiligheid gebracht door de Adelaars.';
+	document.getElementById('level_image').src = 'img/eagles.jpg';
+}
+
+function Level47() {
+	console.log("Level47()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level48()");
+
+	document.getElementById('level_title').innerHTML = ' Nadat de Adelaars iedereen weer veilig heeft neergezet, biedt Thorin Bilbo zijn verontschuldigingen aan.';
+	document.getElementById('level_image').src = 'img/hug.jpg';
+}
+
+function Level48() {
+	console.log("Level48()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level49()");
+
+	document.getElementById('level_title').innerHTML = 'Terwijl het Gezelschap vanaf de Karrots uitkijkt op het Demsterwold en de daarachter liggende Eenzame Berg (Erebor),';
+	document.getElementById('level_image').src = 'img/carrock.jpg';
+}
+
+function Level49() {
+	console.log("Level49()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Ga Verder';
+	opt1.setAttribute("onclick", "javascript:Level50()");
+
+	document.getElementById('level_title').innerHTML = 'Ontwaakt Smaug.';
+	document.getElementById('level_image').src = 'img/smaug2.jpg';
+}
+
+function Level50() {
+	console.log("Level50()");
+
+	var opt1 = document.getElementById('option1');
+	opt1.innerHTML = 'Einde';
+	
+
+	document.getElementById('level_title').innerHTML = 'Dit was het spel, herlaad de pagina als u het opnieuw te spelen.<br><br> Copyright SvS 2016-2017. All rights reserved.';
+	document.getElementById('level_image').src = 'img/peter.png';
+}
 
 
 
